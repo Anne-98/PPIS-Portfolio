@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.wrapper{
+    background: url("../assets/imgs/hero_mini.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+#navbar-heading h5{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #67ebb2;
+}
+#navbar-heading h5:first-letter{
+    color: cornsilk;
+    font-size: 30px;
+}
+nav {
+    /* background: #22577a; */
+    font-weight: bold;
+
+}
+.scroll{
+    background: #22577ade;
+    color: white;
+}
+.navbar-icons{
+    color: #c7cfd4;
+}
+.navbar-icons:hover{
+    color: #1a425c;
+}
+#navbar-homeIcon{
+    color: #0c1e2b;
+}
+.top-img{
+    padding-top: 20vw;
+    animation: top-image;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+.welcome-msg{
+    padding: 20% 5% 15% 5%;
+    color:#1a425c ;
+}
+.welcome-msg-text{
+    margin:  10px;
+    padding-left: 20px;
+    border-left: 5px solid #1a425c;
+    animation-name: welcome-msg;
+    animation-duration: 3s;
+}
+
+@keyframes top-image{
+    0%{ transform: translateX(50px) ; }
+    50%{ transform: translateX(-50px); }
+    100%{transform: translateX(0px); }
+}
+@keyframes welcome-msg{
+    0%{ transform: translateX(-100px);border-left: 0px solid #1a425c00;}
+    /* 50%{ transform: translateX(-50px);border-left: 2px solid #1a425c65;} */
+    100%{transform: translateX(0px);border-left: 5px solid #1a425c;}
+}
+.welcome-msg h1{
+    font-size: 4vw;
+    font-family: 'Acme', sans-serif;
+}
+.skill-cards{
+    border-radius: 5%;
+    padding: 0;
+    margin: 0px auto;
+    transition: all .2s ease;
+    margin-bottom: 20px;
+}
+.card-body{
+    margin-bottom: 0px;
+}
+.skill-cards:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.3), 0 0 1px 0 rgba(0,0,0,.25);
+}
+.skill-card-title{
+    font-family: 'Itim', cursive;
+    color: #22577a;
+    font-weight: bold;
+}
+.cards-wrapper{
+    align-items: center;
+    padding:0px 100px 50px 100px;
+    background-color: #bfd8bd;
+    border-top: 10px solid #8a9c89;
+    margin-top: 100px;
+}
+#card-header{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+}
+#card-header span{
+    border-bottom: 1px solid #000;
+}
+.card-img-top{
+    border-radius: 5%;
+    border-bottom-right-radius: 50%;
+    box-shadow:  0 10px 0 0 #22577a;
+    /* border-bottom-left-radius: 10%; */
+}
+.card-img-top:hover{
+    /* filter: ; */
+}
+/* color: #57cc99 #3d58f3 #80ed99; */
+.skill-cards:nth-child(1){
+    background-color: #2b8183;
+}
+.skill-cards:nth-child(2){
+    background-color: #57cc99;
+}
+.skill-cards:nth-child(3){
+    background-color: #80ed99;
+}
+.skill-cards:nth-child(4){
+    background-color: #b5e48c;
+}
+.skill-cards-title{
+    font-family: 'Alatsi', sans-serif;
+    color: #15354b;
+    
+}
+
+@media screen and (max-width: 769px){
+    .top-img{
+    padding-top: 30px ;
+    animation: top-image;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    padding-bottom: 100px;
+}
+
+.welcome-msg{
+    padding: 200px 36px 10px 36px;
+    color:#1a425c ;
+}
+.welcome-msg h1{
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+    
+}
+
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@300&display=swap');
+.achievement-wrapper{
+    box-shadow: 0 -1px 1px 0 rgba(245, 244, 244, 0.801), 0 1px 2px 0 rgba(240, 238, 238, 0.856);
+
+}
+
+.achievement-card{
+    margin: 0px auto;
+    padding: 20px;
+    background: #001d3d;
+    color: #c0ab55;
+    text-align: center;
+}
+.award-icon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #c0ab55;
+    border-radius: 5px;
+}
+.award-icon i {
+    padding: 15px;
+}
+#achievement-title{
+    font-family: 'Cinzel Decorative', cursive;
+    
+}
+#achievement-description{
+    font-family: 'Trirong', serif;
+}
+
+.achievement-body{
+    animation-name: achievement;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: ease-out all 1s;
+    font-family: serif;
+}
+@keyframes achievement {
+    
+    from{
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(20px);
+        opacity: 1;
+    }
+}

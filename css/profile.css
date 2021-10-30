@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap');
+
+.profile-img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 10px solid #fff;
+    
+
+}
+.profile-left-1{
+    height: 50%;
+    justify-content: center;
+}
+.profile-left-2, .profile-left-3{
+    background: #2b8183;
+    height: 50%;
+    text-align: center;
+}
+.profile-right-1{ background: #93ccb4; height: 50%; }
+.profile-right-1 a:hover{ background: #9cdac0; color: #2b8183; border: 3px solid #2b8183;}
+.profile-right-1 a{
+    background: #2b8183;
+    font-size: 20px;
+    font-family: 'Mitr', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    color: #93ccb4;
+    border-radius: 5px;
+}
+.profile-right-2{background: #2b8183;height: 20%}
+.profile-right-3{
+    background: #2b8183;
+    height: 50%;
+    font-family: 'Overlock', cursive;
+    color: #c5ebdb;
+    padding: 0px 20px 20px 20px; 
+    overflow-x: auto;
+    text-align: center;
+}
+.profile-wrapper{
+    border-top: 10px solid #48828367;
+    background-color: #eee; 
+    padding: 0% 0% 15% 0%;
+}
+.profile-left-3{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#93ccb4 ;
+}
